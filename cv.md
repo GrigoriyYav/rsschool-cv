@@ -2,7 +2,7 @@
 #### Яворский Григорий
 Russia, Izhevsk
 
-Email : yavgan@gmail.com
+Email : yavgan06@gmail.com
 
 Telegram : @GrigoriyYav
 
