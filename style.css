@@ -1,11 +1,17 @@
+h1.CV{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em
+}
+
 h1.IavorskiiGrigoriy{
-    font-size: 100%;
+    font-size: 75%;
 }
 
 p.blocktext{
     margin-left: auto;
     margin-right: auto;
-    width: 50em
+    width: 48em
 }
 
 ul.blocktext{
@@ -23,7 +29,7 @@ h3.blocktext{
 details {
     border-radius: 4px;
     padding: .5em .5em 0;
-    font-size: 100%
+    font-size: 75%
 }
 
 summary {
@@ -39,4 +45,10 @@ details[open] {
 
 details[open] summary {
     margin-bottom: .5em;
+}
+
+section.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
 }
