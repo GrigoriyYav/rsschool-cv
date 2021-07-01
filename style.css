@@ -4,6 +4,10 @@ h1.CV{
     width: 25em
 }
 
+main{
+    margin: auto;
+}
+
 h2.IavorskiiGrigoriy{
     font-size: 135%;
     margin-left: auto;
@@ -24,6 +28,7 @@ ul.blocktext{
 }
 
 h3.blocktext{
+    font-size: 125%;
     margin-left: auto;
     margin-right: auto;
     width: 43em
@@ -69,7 +74,7 @@ article.blocktext{
     
 }
 
-div {
+div.Contacts {
     display: flex;
     }
 
@@ -82,3 +87,13 @@ details.midl{
 li.NoPoints{
 list-style-type: none;
 }
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+
+div.footer {
+    display: flex;
+    }
