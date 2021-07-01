@@ -1,0 +1,42 @@
+h1.IavorskiiGrigoriy{
+    font-size: 100%;
+}
+
+p.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+
+ul.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+
+h3.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 43em
+}
+
+details {
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    font-size: 100%
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    font-size: 150%
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    margin-bottom: .5em;
+}
