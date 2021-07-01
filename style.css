@@ -1,0 +1,99 @@
+h1.CV{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em
+}
+
+main{
+    margin: auto;
+}
+
+h2.IavorskiiGrigoriy{
+    font-size: 135%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em
+}
+
+p.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 48em
+}
+
+ul.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+
+h3.blocktext{
+    font-size: 125%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43em
+}
+
+details {
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    font-size: 100%    
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    font-size: 150%
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    margin-bottom: .5em;
+}
+
+section.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+
+img.sizes{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em
+}
+
+article.blocktext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+    
+}
+
+div.Contacts {
+    display: flex;
+    }
+
+details.midl{
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em 
+}
+
+li.NoPoints{
+list-style-type: none;
+}
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+}
+
+div.footer {
+    display: flex;
+    }
