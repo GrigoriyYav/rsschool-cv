@@ -68,7 +68,18 @@ section.blocktext{
 img.sizes{
     margin-left: auto;
     margin-right: auto;
-    width: 10em
+    width: 10em;
+}
+
+img.rcschool{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+}
+
+img.github{
+    width: 3.8em;
+    border-radius: 10px;
 }
 
 article.blocktext{
@@ -95,9 +106,16 @@ list-style-type: none;
 footer{
     margin-left: auto;
     margin-right: auto;
-    width: 50em
+    width: 46em
 }
 
 div.footer {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     }
+
+time{
+    padding-left: 50px;
+}
