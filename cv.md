@@ -25,16 +25,17 @@ Telegram : @GrigoriyYav
 
 **English level:**
 
-- A2.
+- A2+.
 - In the learning process.
 
 **Programming languages and technologies:**
 
 - HTML
 - CSS
-- JS
-- C
-- Assembler (MASM32)
+- basic lvl JS
+- Git
+- basic level C
+- basic level Assembler (MASM32)
 
 
 
