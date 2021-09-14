@@ -129,7 +129,7 @@ time{
 .page-header__inner{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 40px 2rem 30px;
+    padding: 10px 2rem 30px;
 }
 
 .page-header-nav{
@@ -158,6 +158,14 @@ time{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #242424
+
 }
 
 .site-navigation__link{
