@@ -15,6 +15,7 @@ h1{
 
 main{
     margin: auto;
+    background-color: #C0D8DE;
 }
 
 h2.IavorskiiGrigoriy{
@@ -25,9 +26,8 @@ h2.IavorskiiGrigoriy{
 }
 
 p.blocktext{
-    margin-left: auto;
-    margin-right: auto;
-    width: 48em
+    margin-top: 20px;
+    width: 530px;
 }
 
 ul.blocktext{
@@ -45,7 +45,7 @@ h3.blocktext{
 
 details {
     border-radius: 4px;
-    padding: .5em .5em 0;
+    padding: 10px 5px 0 20px;
     font-size: 100%    
 }
 
@@ -67,11 +67,12 @@ details[open] summary {
 section.blocktext{
     margin-left: auto;
     margin-right: auto;
-    width: 50em
+    width: 50em;
 }
 
 img.sizes{
-    margin-right: auto;
+    margin: auto;
+    margin-top: 10px;
     width: 10em;
     border-radius: 85px;
 }
@@ -87,12 +88,6 @@ img.github{
     border-radius: 10px;
 }
 
-article.blocktext{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50em
-    
-}
 
 div.Contacts {
     display: flex;
@@ -100,7 +95,7 @@ div.Contacts {
     }
 
 details.midl{
-    margin-right: auto;
+    margin: auto;
     width: 15em 
 }
 
@@ -129,7 +124,7 @@ time{
 .page-header__inner{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 10px 2rem 30px;
+    padding: 10px 2rem 10px;
 }
 
 .page-header-nav{
@@ -173,4 +168,26 @@ time{
     text-decoration: none;
     color: #242424;
     padding: 0.5rem 1rem;
+}
+
+.Picture_Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Profile p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 170%;
+    color: #242424;
 }
