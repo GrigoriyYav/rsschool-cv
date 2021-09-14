@@ -3,6 +3,11 @@ body{
     padding: 0;
     background-color: #C0D8DE;
     max-width: 100%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .CV_for{
