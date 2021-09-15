@@ -201,6 +201,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
 }
 
 #Profile{
@@ -218,4 +219,12 @@ header{
     font-size: 19px;
     line-height: 170%;
     color: #242424;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }
