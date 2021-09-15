@@ -6,35 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <style></style>
-    <title>Curriculum vitae</title>
+    <title>Grigorii Iavorskii - Front-End Developer</title>
   </head>
   <body>
-    <header><h1 class="CV">CV For RSSchool</h1></header>
-    <main>
-      <details class="midl">
-        <summary>Grigorii Iavorskii</summary>
-        Яворский Григорий Андреевич
-      </details>
-
-      <article class="blocktext">
-        <h3 class="blocktext">Contacts</h3>
-        <div class="Contacts">
-          <img
-            class="sizes"
-            src="https://avatars.githubusercontent.com/u/86509140?s=400&u=bf73bbe786b7eb3b5b11c138ea22b8291d0a0ed3&v=4"
-            alt="GitHub avatar"
-          />
-          <ul class="blocktext">
-            <li class="NoPoints">Russia, Izhevsk</li>
-            <li class="NoPoints"><b>Email:</b> yavgan06@gmail.com</li>
-            <li class="NoPoints"><i> ↑ preferred communication method</i></li>
-            <li class="NoPoints"><b>Telegram :</b> @GrigoriyYav</li>
-            <li class="NoPoints">
-              <a href="https://github.com/GrigoriyYav">GitHub</a>
-            </li>
+    <header>
+      <div class="page-header__inner">
+        <nav class="page-header-nav">
+          <div class="CV_for">
+            <h1 class="CV">CV For RSSchool</h1>
+          </div>
+          <ul class="site-navigation">
+            <li class="site-navigation__item"><a class="site-navigation__link" href="#Profile">Profile</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="">Employment</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="">Education</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="">English level</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="">Professional skills</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="">Projects</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="">Code examle</a></li>
           </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="Profile" >
+        <div class="blocktext">
+          <h2 class="visually-hidden">Profile</h2>
+          <figure class="Picture_Card">
+            <img
+              class="sizes"
+              src="https://avatars.githubusercontent.com/u/86509140?s=400&u=bf73bbe786b7eb3b5b11c138ea22b8291d0a0ed3&v=4"
+              alt="GitHub avatar"
+            />
+            <figcaption>
+              <details class="midl">
+                <summary>Grigorii Iavorskii</summary>
+                Яворский Григорий Андреевич
+              </details>
+            </figcaption>
+          </figure>
+            <p class="blocktext">
+              Main goal for me its been a frontend-developer. I enjoy programing and
+              learning some new things. I have bachelors degree of Mechatronic
+              systems, that teached me how discipline in studies and work on
+              projects in a team.
+            </p>
         </div>
-      </article>
+      </section>
+
+      <section id="Professional_Skils">
+        <div class="blocktext">
+        <h3>Professional Skils</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>basic level JS</li>
+          <li>Git</li>
+          <li>C</li>
+          <li>Assembler (MASM32)</li>
+        </ul>
+      </div>
+      </section>
 
       <section class="blocktext">
         <h3>About my self:</h3>
@@ -71,17 +102,7 @@
         </ul>
       </section>
 
-      <section class="blocktext">
-        <h3>Programming languages and technologies:</h3>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>basic level JS</li>
-          <li>Git</li>
-          <li>basic level C</li>
-          <li>basic level Assembler (MASM32)</li>
-        </ul>
-      </section>
+
 
       <section class="blocktext">
         <h3>Code examle:</h3>
@@ -95,6 +116,21 @@
     console.log(sum);
               </code>
             </Pre>
+        </div>
+      </section>
+
+      <section id="Contacts" class="blocktext">
+        <h3>Contacts</h3>
+        <div class="Contacts">
+            <ul class="blocktext">
+              <li class="NoPoints">Russia, Izhevsk</li>
+              <li class="NoPoints"><b>Email:</b> yavgan06@gmail.com</li>
+              <li class="NoPoints"><i> ↑ preferred communication method</i></li>
+              <li class="NoPoints"><b>Telegram :</b> @GrigoriyYav</li>
+              <li class="NoPoints">
+                <a href="https://github.com/GrigoriyYav">GitHub</a>
+              </li>
+            </ul> 
         </div>
       </section>
     </main>

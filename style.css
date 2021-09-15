@@ -1,14 +1,26 @@
 body{
-    margin: auto 0;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #C0D8DE;
+    max-width: 100%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 
-h1.CV{
-    margin-left: auto;
-    margin-right: auto;
-    width: 25em
+.CV_for{
+    margin: 1rem 3rem;
+    margin-left: 16px;
+}
+
+h1{
+    text-decoration: none;
 }
 
 main{
+    box-sizing: border-box;
     margin: auto;
 }
 
@@ -20,9 +32,8 @@ h2.IavorskiiGrigoriy{
 }
 
 p.blocktext{
-    margin-left: auto;
-    margin-right: auto;
-    width: 48em
+    margin-top: 40px;
+    width: 620px;
 }
 
 ul.blocktext{
@@ -31,17 +42,36 @@ ul.blocktext{
     width: 50em
 }
 
-h3.blocktext{
-    font-size: 125%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 43em
+h3{
+    max-width: 115%;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #242424;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 40px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
 }
 
 details {
     border-radius: 4px;
-    padding: .5em .5em 0;
-    font-size: 100%    
+    padding: 20px 5px 0 20px;
+    font-size: 100% ;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 10px;
+    letter-spacing: 0.005em;    
 }
 
 summary {
@@ -52,22 +82,23 @@ summary {
 }
 
 details[open] {
-    padding: .5em;
+    padding: 20px 5px 0 20px;
 }
 
 details[open] summary {
     margin-bottom: .5em;
 }
 
-section.blocktext{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50em
+.blocktext{
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 80%;
+    max-width: 1360px;
 }
 
 img.sizes{
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    margin-top: 10px;
     width: 10em;
     border-radius: 85px;
 }
@@ -83,32 +114,30 @@ img.github{
     border-radius: 10px;
 }
 
-article.blocktext{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50em
-    
-}
 
 div.Contacts {
     display: flex;
+    flex-direction: column;
     }
 
 details.midl{
-    margin-left: auto;
-    margin-right: auto;
-    width: 15em 
+    margin: auto;
+    width: 15em;
+    color: #242424;;
 }
 
 li.NoPoints{
-list-style-type: none;
-margin: 0 0 6px 0;
+    list-style-type: none;
+    margin: 0 0 6px 0;
 }
 
 footer{
+    box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    width: 46em
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: #E4E6E7;
 }
 
 div.footer {
@@ -116,8 +145,110 @@ div.footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
 
 time{
     padding-left: 50px;
+}
+
+header{
+    max-width:100%;
+    box-sizing: border-box;
+    background-color: #242424;
+    color: #FFFFFF;
+}
+
+.page-header__inner{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 10px 2rem 10px;
+}
+
+.page-header-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 40px;
+    
+}
+
+.site-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px 0px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.site-navigation__item{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.site-navigation__link{
+    white-space: nowrap;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0.5rem 1rem;
+}
+
+.Picture_Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#Profile{
+    width: 100%;
+    padding-top: 20px;
+}
+
+#Profile div.blocktext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Profile p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 170%;
+    color: #242424;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+#Professional_Skils{
+    width: 100%;
+    padding-top: 10px;
+    background-color: #E4E6E7;
 }
