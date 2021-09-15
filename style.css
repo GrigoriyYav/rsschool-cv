@@ -226,15 +226,17 @@ header{
 #Profile div.blocktext{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 #Profile p{
+    max-width: 750px;
+    padding-top: 20px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 170%;
     color: #242424;
 }
