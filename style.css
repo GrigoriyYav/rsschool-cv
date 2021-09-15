@@ -77,9 +77,13 @@ details[open] summary {
     margin-bottom: .5em;
 }
 
-section.blocktext{
+.blocktext{
     margin: 10px auto;
     width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 img.sizes{
@@ -205,10 +209,7 @@ header{
 }
 
 #Profile{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    width: 100%;
     padding-top: 20px;
 }
 
