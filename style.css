@@ -20,7 +20,6 @@ h1{
 }
 
 main{
-    max-width: 1440px;
     box-sizing: border-box;
     margin: auto;
 }
@@ -43,11 +42,24 @@ ul.blocktext{
     width: 50em
 }
 
-h3.blocktext{
-    font-size: 125%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 43em
+h3{
+    max-width: 115%;
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #242424;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 40px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
 }
 
 details {
@@ -79,11 +91,8 @@ details[open] summary {
 
 .blocktext{
     margin: 10px auto;
-    width: 65%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1360px;
 }
 
 img.sizes{
@@ -213,6 +222,13 @@ header{
     padding-top: 20px;
 }
 
+#Profile div.blocktext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 #Profile p{
     font-family: Roboto;
     font-style: normal;
@@ -228,4 +244,10 @@ header{
     width: 1px;
     height: 1px;
     margin: -1px;
+}
+
+#Professional_Skils{
+    width: 100%;
+    padding-top: 10px;
+    background-color: #E4E6E7;
 }
