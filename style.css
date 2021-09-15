@@ -121,7 +121,9 @@ footer{
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1440px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-color: #E4E6E7;
 }
 
 div.footer {
@@ -129,6 +131,11 @@ div.footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     }
 
 time{
