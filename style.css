@@ -249,13 +249,13 @@ header{
     margin: -1px;
 }
 
-#Professional_Skils{
+#Professional_Skills{
     width: 100%;
     padding-top: 10px;
     background-color: #E4E6E7;
 }
 
-#Professional_Skils ul{
+#Professional_Skills ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -266,7 +266,7 @@ header{
     list-style-type: none;
 }
 
-#Professional_Skils ul li{
+#Professional_Skills ul li{
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -279,3 +279,66 @@ header{
 
     color: #242424;
 }
+
+.Skillbar{
+    width: 200px;
+    height: 17px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.HTML{
+    background: #E4E6E7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #242424 65% , #B9B9B9 65%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #242424 65%, #B9B9B9 65%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #242424 65%, #B9B9B9 65%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #242424 65% , #B9B9B9 65%); /* Standard syntax */
+}
+
+.Skill_item{
+    width: 263px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+.CSS{
+    background: #E4E6E7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #242424 50% , #B9B9B9 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #242424 50%, #B9B9B9 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #242424 50%, #B9B9B9 50%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #242424 50% , #B9B9B9 50%); /* Standard syntax */
+} 
+
+.JS{
+    background: #E4E6E7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #242424 30% , #B9B9B9 30%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #242424 30%, #B9B9B9 30%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #242424 30%, #B9B9B9 30%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #242424 30% , #B9B9B9 30%); /* Standard syntax */
+} 
+
+.GIT{
+    background: #E4E6E7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #242424 45% , #B9B9B9 45%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #242424 45%, #B9B9B9 45%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #242424 45%, #B9B9B9 45%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #242424 45% , #B9B9B9 45%); /* Standard syntax */
+} 
+
+.C{
+    background: #E4E6E7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #242424 25% , #B9B9B9 25%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #242424 25%, #B9B9B9 25%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #242424 25%, #B9B9B9 25%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #242424 25% , #B9B9B9 25%); /* Standard syntax */
+} 
+
+.ASM{
+    background: #E4E6E7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #242424 25% , #B9B9B9 25%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #242424 25%, #B9B9B9 25%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #242424 25%, #B9B9B9 25%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #242424 25% , #B9B9B9 25%); /* Standard syntax */
+} 
