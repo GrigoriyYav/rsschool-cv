@@ -403,7 +403,7 @@ header{
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 24px;
     line-height: 49px;
     /* identical to box height */
 
@@ -467,7 +467,7 @@ header{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 21px;
     line-height: 45px;
     /* identical to box height */
 
@@ -498,4 +498,50 @@ header{
 
 .hljs {
     font-size: 18px;
+}
+
+#projects{
+    background-color:#E4E6E7 ;
+}
+
+.projects_item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height:120%;
+    /* or 56px */
+
+    text-align: justify;
+    letter-spacing: 0.03em;
+
+    /* 222 */
+
+    color: #242424;
+}
+
+.projects_item p{
+    padding-left: 2%;
+    max-width: 730px;
+}
+
+
+.museum{
+    padding: 20px 10px 0 20px;
+    max-width: 480px;
+    max-height: 270px;
+}
+
+@media(max-width: 680px){
+    .museum{
+        max-width: 255px;
+        padding: 20px 10px 0 0px;
+    }
+    .projects_item{
+        padding: 20px 10px 0 0px;
+    }
 }
