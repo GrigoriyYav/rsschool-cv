@@ -478,3 +478,13 @@ header{
 
     color: black;
 }
+
+.example{
+    overflow-x: scroll;
+    padding-left: 20%;
+}
+@media(max-width: 809px){
+    .example{
+        padding-left: 0;
+    }
+}
