@@ -381,3 +381,66 @@ header{
 
     color: #242424;
 }
+
+#Education{
+    width: 100%;
+    padding-top: 10px;
+}
+
+#Education ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0px auto;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#Education ul li h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 49px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+#Education ul li{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: #999999;
+}
+
+#Education ul li p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: #999999;
+}
