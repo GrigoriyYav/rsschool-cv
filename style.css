@@ -1,18 +1,19 @@
-body{
-    margin: 0 auto;
+html, body{
+    margin: 0;
     padding: 0;
     background-color: #C0D8DE;
-    max-width: 100%;
+    width: 100vw;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    overflow-x :hidden;
 }
 body::-webkit-scrollbar {
     display: none;
 }
 
 .CV_for{
-    margin: 1rem 3rem;
-    margin-left: 16px;
+    padding: 1rem 3rem;
+    padding-left: 16px;
 }
 
 h1{
@@ -360,7 +361,7 @@ header{
 #personal_skills ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 50%;
     margin: 0px auto;
