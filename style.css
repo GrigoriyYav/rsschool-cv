@@ -51,7 +51,7 @@ h3{
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 23px;
     line-height: 40px;
     /* identical to box height */
 
@@ -200,7 +200,7 @@ header{
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     text-transform: uppercase;
 }
 
@@ -226,15 +226,17 @@ header{
 #Profile div.blocktext{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 #Profile p{
+    max-width: 724px;
+    padding-top: 20px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 170%;
     color: #242424;
 }
@@ -247,8 +249,231 @@ header{
     margin: -1px;
 }
 
-#Professional_Skils{
+#Professional_Skills{
     width: 100%;
     padding-top: 10px;
     background-color: #E4E6E7;
+}
+
+#Professional_Skills ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0px auto;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#Professional_Skills ul li{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 45px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    /* 222 */
+
+    color: #242424;
+}
+
+.Skillbar{
+    width: 200px;
+    height: 17px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.HTML{
+    background: #E4E6E7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #242424 65% , #B9B9B9 65%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #242424 65%, #B9B9B9 65%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #242424 65%, #B9B9B9 65%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #242424 65% , #B9B9B9 65%); /* Standard syntax */
+}
+
+.Skill_item{
+    width: 274px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+
+.CSS{
+    background: #E4E6E7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #242424 50% , #B9B9B9 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #242424 50%, #B9B9B9 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #242424 50%, #B9B9B9 50%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #242424 50% , #B9B9B9 50%); /* Standard syntax */
+} 
+
+.JS{
+    background: #E4E6E7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #242424 30% , #B9B9B9 30%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #242424 30%, #B9B9B9 30%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #242424 30%, #B9B9B9 30%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #242424 30% , #B9B9B9 30%); /* Standard syntax */
+} 
+
+.GIT{
+    background: #E4E6E7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #242424 45% , #B9B9B9 45%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #242424 45%, #B9B9B9 45%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #242424 45%, #B9B9B9 45%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #242424 45% , #B9B9B9 45%); /* Standard syntax */
+} 
+
+.C{
+    background: #E4E6E7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #242424 25% , #B9B9B9 25%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #242424 25%, #B9B9B9 25%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #242424 25%, #B9B9B9 25%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #242424 25% , #B9B9B9 25%); /* Standard syntax */
+} 
+
+.ASM{
+    background: #E4E6E7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #242424 25% , #B9B9B9 25%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #242424 25%, #B9B9B9 25%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #242424 25%, #B9B9B9 25%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #242424 25% , #B9B9B9 25%); /* Standard syntax */
+}
+
+.FIGMA{
+    background: #E4E6E7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #242424 20% , #B9B9B9 20%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #242424 20%, #B9B9B9 20%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #242424 20%, #B9B9B9 20%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #242424 20% , #B9B9B9 20%); /* Standard syntax */
+}
+
+#personal_skills{
+    width: 100%;
+    padding-top: 10px;
+    background-color: #E4E6E7;
+}
+
+#personal_skills ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0px auto;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#personal_skills ul li{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    /* 222 */
+
+    color: #242424;
+}
+
+#Education{
+    width: 100%;
+    padding-top: 10px;
+}
+
+#Education ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0px auto;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#Education ul li h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 49px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+#Education ul li{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: #999999;
+}
+
+#Education ul li p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: #4F4F4F;
+}
+
+#Languages{
+    width: 100%;
+    padding-top: 10px;
+}
+
+#Languages ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0px auto;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#Languages ul li{
+    padding-top: 9px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    /* identical to box height */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: black;
 }
