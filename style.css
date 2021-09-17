@@ -479,12 +479,23 @@ header{
     color: black;
 }
 
-.example{
-    overflow-x: scroll;
-    padding-left: 20%;
+#code_examle{
+    padding-top: 10px;
+    background-color:#E4E6E7 ;
 }
+
+.example{
+    overflow-x:visible;
+    padding-left: 20%;
+    background-color:#F0F0F0 ;
+}
+
 @media(max-width: 809px){
     .example{
         padding-left: 0;
     }
+}
+
+.hljs {
+    font-size: 18px;
 }

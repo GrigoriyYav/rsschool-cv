@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script script>hljs.initHighlightingOnLoad();</script>
     <style></style>
     <title>Grigorii Iavorskii - Front-End Developer</title>
   </head>
@@ -157,13 +160,11 @@
           <h3>Code examle</h3>
           <div class="example">
             <pre>
-                <code>
-function spinWords(string){
+                <code class="language-javascript hljs ">function spinWords(string){
   return string.split(' ').map(function(string){
     return (string.length > 4) ? string.split('').reverse().join('') : string
   }).join(' ');
-}
-                </code>
+}                </code>
               </pre>
           </div>
         </div>
