@@ -127,11 +127,6 @@ details.midl{
     color: #242424;;
 }
 
-li.NoPoints{
-    list-style-type: none;
-    margin: 0 0 6px 0;
-}
-
 footer{
     box-sizing: border-box;
     margin-left: auto;
@@ -543,5 +538,49 @@ header{
     }
     .projects_item{
         padding: 20px 10px 0 0px;
+    }
+}
+
+#Contacts{
+    width: 100%;
+    padding-top: 10px;
+}
+
+#Contacts ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0px auto;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#Contacts ul li{
+    padding-top: 9px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 45px;
+    /* identical to box height */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: black;
+}
+
+@media (max-width: 380px ){
+    #Contacts ul li{
+        font-size: 16px; 
+    }
+}    
+@media (max-width: 672px ){
+    #Contacts .blocktext ul:nth-child(4){
+        flex-direction: row-reverse;
     }
 }
