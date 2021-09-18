@@ -140,6 +140,7 @@ div.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     width: 90%;
     max-width: 1440px;
@@ -149,7 +150,33 @@ div.footer {
     }
 
 time{
-    padding-left: 50px;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media(max-width:616px){
+    time{
+        padding-left: 10%;
+        padding-right: 5%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width:331px){
+    time{
+        padding-left: 10px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    div.footer {
+        flex-direction: column;
+    }
+    img.rcschool{
+        padding-left: 20px;
+    }
 }
 
 header{
