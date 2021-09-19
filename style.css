@@ -311,6 +311,7 @@ header{
     padding: 0px;
     list-style-type: none;
 }
+
 @media(max-width: 1370px){
     #Professional_Skills ul{
         width: 33%;
@@ -320,7 +321,7 @@ header{
     #Professional_Skills ul{
         width: 33%;
         margin-left: 0;
-        padding-left: 33%;
+        padding-left: 23%;
     } 
 }
 @media(max-width: 425px){
@@ -328,13 +329,14 @@ header{
         padding-left: 8%;
     } 
 }
-#Professional_Skills ul li{
+#Professional_Skills ul li p{
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
     line-height: 45px;
     letter-spacing: 0.01em;
+    margin: 0;
     text-transform: uppercase;
 
     /* 222 */
@@ -347,6 +349,12 @@ header{
     height: 17px;
     margin-top: 13px;
     margin-left: 10px;
+}
+
+@media(max-width: 425px){
+    .Professional_Skills ul{
+        width: 20%;
+    } 
 }
 
 .HTML{
