@@ -139,7 +139,7 @@ div.Contacts {
 details.midl{
     margin: auto;
     width: 15em;
-    color: #242424;;
+    color: #242424;
 }
 
 footer{
@@ -784,5 +784,48 @@ header{
     }
     .site-navigation__item{
         font-size: 20px;
+    }
+}
+
+.video-cv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 0px 50px;
+    max-width: 1360px;
+    margin: auto;
+}
+
+.video{
+    width: 100%;
+    max-width: 560px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.video-name{
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-weight: bold;
+    font-size: 150%;
+    color: #000000;
+}
+
+@media(max-width:1560px){
+    .video-cv{
+        max-width: 80%;
+        flex-direction: column;
+        justify-content: none;
+    }
+    .video-name{
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+    .video{
+        max-width: 720px;
+        padding-right: 0;
     }
 }
