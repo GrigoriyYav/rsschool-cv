@@ -311,7 +311,23 @@ header{
     padding: 0px;
     list-style-type: none;
 }
-
+@media(max-width: 1370px){
+    #Professional_Skills ul{
+        width: 33%;
+    } 
+}
+@media(max-width: 810px){
+    #Professional_Skills ul{
+        width: 33%;
+        margin-left: 0;
+        padding-left: 33%;
+    } 
+}
+@media(max-width: 425px){
+    #Professional_Skills ul{
+        padding-left: 8%;
+    } 
+}
 #Professional_Skills ul li{
     font-family: Poppins;
     font-style: normal;
@@ -413,6 +429,23 @@ header{
     padding: 0px;
     list-style-type: none;
 }
+@media(max-width: 1370px){
+    #personal_skills ul{
+        width: 33%;
+    } 
+}
+@media(max-width: 810px){
+    #personal_skills ul{
+        width: 33%;
+        margin-left: 0;
+        padding-left: 33%;
+    } 
+}
+@media(max-width: 425px){
+    #personal_skills ul{
+        padding-left: 8%;
+    } 
+}
 
 #personal_skills ul li{
     font-family: Poppins;
@@ -442,6 +475,21 @@ header{
     margin: 0px auto;
     padding: 0px;
     list-style-type: none;
+}
+@media(max-width: 1370px){
+    #Education ul{
+        width: 70%;
+    } 
+}
+@media(max-width: 810px){
+    #Education ul{
+        width: 80%;
+    } 
+}
+@media(max-width: 425px){
+    #Education ul{
+        padding-left: 3%;
+    } 
 }
 
 #Education ul li h2{
@@ -506,6 +554,23 @@ header{
     padding: 0px;
     list-style-type: none;
 }
+    @media(max-width: 1370px){
+        #Languages ul{
+            width: 55%;
+        } 
+    }
+    @media(max-width: 810px){
+        #Languagesul{
+            width: 23%;
+            margin-left: 0;
+            padding-left: 33%;
+        } 
+    }
+    @media(max-width: 425px){
+        #Languages ul{
+            padding-left: 8%;
+        } 
+    }
 
 #Languages ul li{
     padding-top: 9px;
