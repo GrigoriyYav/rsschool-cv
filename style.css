@@ -87,7 +87,11 @@ details {
     font-weight: 900;
     font-size: 15px;
     line-height: 10px;
-    letter-spacing: 0.005em;    
+    letter-spacing: 0.005em;
+    cursor: pointer;    
+}
+details:hover{
+    text-shadow: #F0F0F0 1px 0;
 }
 
 summary {
@@ -249,6 +253,14 @@ header{
     font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
+}
+.site-navigation__link:hover{
+    text-shadow: #FFFFFF 1px 0;
+    border: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    transition: all 0.2s ease 0.1s;
 }
 
 .site-navigation__link{
@@ -649,14 +661,21 @@ header{
 }
 
 
-.museum{
+.projects_img{
     padding: 20px 10px 0 20px;
     max-width: 480px;
     max-height: 270px;
 }
+.projects_img:hover{
+    box-shadow: 5px 5px 40px 10px #242424;
+    border-radius: 5px;
+    transform: scale(1.05);
+    padding: 0;
+    margin: 20px 10px 0 20px;
+}
 
 @media(max-width: 680px){
-    .museum{
+    .projects_img{
         max-width: 255px;
         padding: 20px 10px 0 0px;
     }
